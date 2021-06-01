@@ -6,6 +6,7 @@ import {createGlobalStyle} from 'styled-components'
 
 const Global = createGlobalStyle`
 *{margin:0;padding:0;box-sizing:border-box;}
+body{background:rgb(245,245,245);}
 `
 ReactDOM.render(
   <React.StrictMode>
